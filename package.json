@@ -22,5 +22,8 @@
   ],
   "devDependencies": {
     "concurrently": "^9.1.0"
+  },
+  "dependencies": {
+    "@sanity/vision": "^3.68.3"
   }
 }
