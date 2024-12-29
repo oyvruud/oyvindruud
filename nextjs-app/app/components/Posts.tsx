@@ -89,9 +89,7 @@ export const AllPosts = async () => {
 
   return (
     <Posts
-      heading="Recent Posts"
-      subHeading={`${data.length === 1 ? "This blog post is" : `These ${data.length} blog posts are`} populated from your Sanity Studio.`}
-    >
+      heading="Work:">
       {data.map((post: any) => (
         <Post key={post._id} post={post} />
       ))}
